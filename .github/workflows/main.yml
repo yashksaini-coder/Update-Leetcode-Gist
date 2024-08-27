@@ -1,0 +1,26 @@
+name: Update LeetCode Gist
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'August-Leetcode-Daily-2024/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-leetcode-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3  # Updated to the latest version
+      - run: npm install
+      - name: Update LeetCode Gist
+        uses: ./
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
+      - name: Notify on Changes
+        run: echo "Changes detected. Workflow Triggered!"
