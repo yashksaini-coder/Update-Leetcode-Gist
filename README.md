@@ -26,7 +26,7 @@ Follow these steps to set up the project:
 
 2. Go to your fork's `Settings` > `Secrets` > `Add a new secret` for each environment secret:
 
-  - **`GIST_ID`:** Obtain the 32-bit ID from your gist URL. It can be found in the URL of your gist page, which looks like this: `https://gist.github.com/{github_username}/`**`762ebda9730630395aabdee06ce58fd1`**. Copy the ID and add it as a secret with the name `GIST_ID`.
+  - **`GIST_ID`:** Obtain the 32-bit ID from your gist URL. It can be found in the URL of your gist page, which looks like this: `https://gist.github.com/{github_username}/`**`e57c950c2b7ea4d10d4f94cec2af7406`**. Copy the ID and add it as a secret with the name `GIST_ID`.
 
   - **`GH_TOKEN`:** Generate a GitHub token with the necessary permissions. To do this, go to your GitHub account settings and navigate to the "Developer settings" section. From there, click on "Personal access tokens" and generate a new token. Make sure to grant the token the necessary permissions. Copy the token and add it as a secret with the name `GH_TOKEN`.
 
