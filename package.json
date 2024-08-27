@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "puiiyuen",
+    "author": "yashskaini",
     "license": "MIT",
     "dependencies": {
         "@octokit/rest": "^18.12.0",
