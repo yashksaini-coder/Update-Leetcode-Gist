@@ -2,7 +2,7 @@
   <img width="400" src="assets/image.png">
   <h1 align="center">Leetcode-Gist</h1>
 
-![](https://img.shields.io/github/license/yashksaini-coder/Leetcode-Gist)
+![](https://img.shields.io/github/license/yashksaini-coder/Update-Leetcode-Gist)
 ![](https://img.shields.io/github/actions/workflow/status/yashksaini-coder/Update-Leetcode-Gist/.github%2Fworkflows%2Fmain.yml?branch=main&style=flat-square&labelColor=blue)
 
 </div>
