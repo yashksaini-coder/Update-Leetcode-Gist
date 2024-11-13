@@ -4,7 +4,7 @@
 <br><br>
 
 <div align="center">
-    <img alt="GitHub Repo Name" src="https://img.shields.io/badge/Regression_of_Used_Car_Prices-e36414">
+    <img alt="GitHub Repo Name" src="https://img.shields.io/badge/Update_Leetcode_Gist-e36414">
     <img alt="GitHub Author" src="https://img.shields.io/badge/Author-Yash%20K.%20Saini-a8dadc">
     <img alt="GitHub commit-activity" src="https://img.shields.io/github/commit-activity/t/yashksaini-coder/Update-Leetcode-Gist">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/yashksaini-coder/Update-Leetcode-Gist">
